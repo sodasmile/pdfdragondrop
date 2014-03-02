@@ -27,6 +27,12 @@ $ cd pdfdragondrop
 
 $ mvn install
 
+$ chmod u+x start.sh
+
+$ ./start.sh
+
+If that does not work, try something like this
+
 $ java -cp "/Library/Java/JavaVirtualMachines/jdk1.7.0_40.jdk/Contents/Home/jre/lib/jfxrt.jar:/Users/YOURUSER/.m2/repository/pdfdragondrop/pdfdragondrop/1.0-SNAPSHOT/pdfdragondrop-1.0-SNAPSHOT.jar" com.sodasmile.dragondrop.DropConvert
 
 Sorry for the insanely useless way of starting the application. I will see if I can make it a little smarter - or just wait for java8 and see if Oracle have fixed it.
