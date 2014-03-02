@@ -4,3 +4,5 @@ target/
 .classpath
 .project
 nbproject
+dependency-reduced-pom.xml
+rebel.xml
